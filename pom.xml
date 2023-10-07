@@ -12,7 +12,7 @@
     <artifactId>parcial-1-rwc-2023</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Partial 1 - Rugby World Cup 2023</name>
-    <description>LCII Initial Scaffolding</description>
+    <description>Partial 1 - Rugby World Cup 2023</description>
     <properties>
         <java.version>17</java.version>
     </properties>
