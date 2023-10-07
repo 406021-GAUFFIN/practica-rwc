@@ -68,6 +68,8 @@ Points For count.
    * 1 bonus point for scoring 4 or more tries in a match
    * 1 bonus point for losing by 7 or fewer points in a match
 
+Example of response in a front end
+![](./docs/img.png)
 
 #### 4- API Endpoints Implementation:
 
