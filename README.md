@@ -166,3 +166,9 @@ and return it in a JSON format.
 6. The application must be tested using JUnit 5 and Mockito.
 7. The application must have 60% code coverage.
 8. The application must be deployed using Docker.
+
+## Source of data
+
+```http
+https://my-json-server.typicode.com/LCIV-2023/fake-api-rwc2023
+```
