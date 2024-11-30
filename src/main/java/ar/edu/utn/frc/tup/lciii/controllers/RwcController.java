@@ -11,10 +11,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -28,5 +25,9 @@ public class RwcController {
     @GetMapping("/pools")
     public ResponseEntity<List<PoolDTO>> getAllPools() {
         return ResponseEntity.ok(rwcService.getResults());
+    }
+    @GetMapping("/pools/{poolId}")
+    public ResponseEntity<PoolDTO> getPoolById(@PathVariable String poolId) {
+        return ResponseEntity.ok(rwcService.getOneResult(poolId));
     }
 }
